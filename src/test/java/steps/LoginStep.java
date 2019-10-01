@@ -51,9 +51,9 @@ public class LoginStep extends BaseUtil{
     public void iEnterTheFollowingForLogin(DataTable table) throws Throwable {
         scenarioDef.createNode(new GherkinKeyword("And"), "I entere the following for login");
         //Create an ArrayList
-        List<User> users =  new ArrayList<User>();
+        //List<User> users =  new ArrayList<User>();
         //Store all the users
-        var users = table.asList(String.class);
+        //var users = table.asList(String.class);
 
         LoginPage page = new LoginPage(base.Driver);
 
